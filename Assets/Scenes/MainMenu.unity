@@ -371,7 +371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &936238577
 Transform:
   m_ObjectHideFlags: 0
@@ -710,12 +710,28 @@ PrefabInstance:
       value: 630.54
       objectReference: {fileID: 0}
     - target: {fileID: 4484030264128714236, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484030264128714236, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484030264128714236, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484030264128714236, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -441
+      value: -249
       objectReference: {fileID: 0}
     - target: {fileID: 4484030264128714236, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -33.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484030264128714236, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4484030264516587982, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
       propertyPath: m_Color.b
@@ -835,6 +851,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4484030265729460844, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
       propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484030265729460847, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
+      propertyPath: m_MatchWidthOrHeight
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4493961206413837723, guid: eda37754cd7bee541bce40bf10dc7087, type: 3}
